@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- 
+<div class="">
+</div>
+-->
+
+<div id="main" class="container-fluid d-block d-flex flex-column">
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top align-items-center" id="nav-bar">
+      <a class="navbar-brand" href="#home">
+        <!--<span class="fa fa-lg fa-home"></span>-->
+        <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse d-md-flex flex-md-row justify-content-md-end" id="navbar">
+        <ul class="navbar-nav" id="navbar-links">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+              <!--<span class="fa fa-lg fa-home"></span>-->
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">
+              <!--<span class="fa fa-lg fa-home"></span>-->
+              Features
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#how-it-works">
+              <!--<span class="fa fa-lg fa-home"></span>-->
+              How It Works
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">
+              <!--<span class="fa fa-lg fa-home"></span>-->
+              Pricing
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="content">
+    
+    <div id="home" class="row page">  
+      <div class="row col-12 mx-auto">
+        <div class="col-12 col-md-10 mx-auto align-self-center">
+          <h1 class="d-none d-sm-block mx-auto text-center mb-4">
+            Handcrafted, home-made masterpieces
+          </h1>
+          <h3 class="d-block d-sm-none mx-auto text-center mb-4">
+            Handcrafted, home-made masterpieces
+          </h3>          
+          <form class="form" action="https://www.freecodecamp.com/email-submit" target="_blank" method="get" id="form">
+            <div class="form-row form-group">
+              <div class="col-10 col-sm-8 col-md-6 mx-auto">
+                <input name="email" id="email" type="email" class="form-control" placeholder="Enter your Email" required>
+              </div> 
+            </div>
+            <div class="form-row form-group">
+              <input value="Get Started" id="submit" type="submit" class="btn btn-dark text-white col-auto mx-auto">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div id="features" class="row page">
+      <div class="row col-12 mx-auto">
+        <div class="col-12 col-lg-10 mx-auto align-self-center">
+          <div class="row">
+            <div class="col-auto col-md-3 mx-auto">
+              <span class="fa fa-3x fa-fire icon d-block d-md-none"></span>
+              <span class="fa fa-4x fa-fire icon d-none d-md-block"></span>
+            </div>
+            <div class="col-12 col-md-9 p-2">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="feature-heading">Premium Materials</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10 mx-auto mx-md-0">
+                  <p class="feature-description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-auto col-md-3 mx-auto">
+              <span class="fa fa-3x fa-truck icon d-block d-md-none"></span>
+              <span class="fa fa-4x fa-truck icon d-none d-md-block"></span>
+            </div>
+            <div class="col-12 col-md-9 p-2">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="feature-heading">Fast Shipping</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10 mx-auto mx-md-0">
+                  <p class="feature-description">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-auto col-md-3 mx-auto">
+              <span class="fa fa-3x fa-battery icon d-block d-md-none"></span>
+              <span class="fa fa-4x fa-battery icon d-none d-md-block"></span>
+            </div>
+            <div class="col-12 col-md-9 p-2">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="feature-heading">Quality Assurance</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10 mx-auto mx-md-0">
+                  <p class="feature-description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="how-it-works" class="row page">
+      <div class="col-12 col-lg-10 mx-auto">
+        <div class="row">
+          <h2 class="col-auto mx-auto mb-4">
+            How It Works
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-12 embed-responsive embed-responsive-16by9 my-auto mx-auto">
+            <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/y8Yv4pnO7qc" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pricing" class="row page">
+      <div class="col-12 mx-auto">
+        <div class="row">
+          <div class="col-10 col-lg-4 mx-auto">
+            <div class="card bg-dark text-light mx-auto">
+              <div class="card-header">
+                <h4 class="card-title text-warning align-self-center text-center">
+                  Tenor Trombone
+                </h4>
+              </div>
+              <div class="card-body bg-light">
+                <h3 class="card-title text-dark text-center">$600</h3>
+                <ul class="list-unstyled text-center text-dark">
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-footer row">
+                <button type="button" class="btn btn-warning col-auto mx-auto">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 mx-auto">
+            <div class="card bg-dark text-light mx-auto">
+              <div class="card-header">
+                <h4 class="card-title text-warning align-self-center text-center">
+                  Bass Trombone
+                </h4>
+              </div>
+              <div class="card-body bg-light">
+                <h3 class="card-title text-dark text-center">$900</h3>
+                <ul class="list-unstyled text-center text-dark">
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-footer row">
+                <button type="button" class="btn btn-warning col-auto mx-auto">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 mx-auto">
+            <div class="card bg-dark text-light mx-auto">
+              <div class="card-header">
+                <h4 class="card-title text-warning align-self-center text-center">
+                  Valve Trombone
+                </h4>
+              </div>
+              <div class="card-body bg-light">
+                <h3 class="card-title text-dark text-center">$1200</h3>
+                <ul class="list-unstyled text-center text-dark">
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum </li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                  <li class="m-2">Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-footer row">
+                <button type="button" class="btn btn-warning col-auto mx-auto">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="row bg-muted">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 d-flex flex-column justify-content-start align-items-center flex-sm-row justify-content-sm-end">
+          <a class="nav-link text-dark" href="#">Privacy</a>
+          <a class="nav-link text-dark" href="#">Terms</a>
+          <a class="nav-link text-dark" href="#">Contact</a>
+        </div>
+      </div>
+      <hr class="line" />
+      <div class="row">
+        <p class="mx-auto text-right">Copyright 2018, Original Trombones</p>
+      </div>
+
+    </div>
+  </footer>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js'></script>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+$teal-100: #b2dfdb;
+$teal-200: #80cbc4;
+$teal-300: #4db6ac;
+$teal-400: #26a69a;
+$teal-500: #009688;
+$teal-600: #00897b;
+$teal-700: #00796b;
+$teal-800: #00695C;
+$teal-900: #004D40;
+$teal-50: #E0F2F1;
+
+$brown-50: #ffdcc6;
+$brown-800: #5e1117;
+$brown-900: #4d000d;
+
+.jumbotron{
+	background-color: $teal-50;
+	border-bottom: 10px solid $teal-900;
+	margin: 10px 0px 10px 0px;
+	
+	.header-title{
+		color: $teal-800;
+		margin: 10px 0px 30px 0px;
+	}
+	.header-quote{
+		color: $teal-800;
+	}
+}
+
+.img-caption{
+	color: $teal-500;
+}
+
+.img{
+	margin: 20px 0px 10px 0px;
+	max-width: 100%;
+}
+.content{
+	color: $brown-900;
+}
+.footer{
+	margin: 40px 0px 40px 0px;
+	padding-top: 30px;
+	border-top: 1px solid $teal-900;
+	border-bottom: 1px solid $teal-900;
+	color: $teal-800;
+	.footer-link{
+		color: $teal-800;
+	}
+}

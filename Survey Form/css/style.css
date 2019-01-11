@@ -1,0 +1,49 @@
+@media (min-width: 576px) {
+  .label-sm-right {
+    float: right;
+    text-align: right;
+  }
+}
+.header {
+  border-bottom: 3px double #454cba;
+  margin-bottom: 20px;
+}
+.header h1 {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  color: #231c82;
+}
+
+body {
+  background-image: radial-gradient(circle, #9fa5e3, #e7e9ff);
+}
+
+#description {
+  text-shadow: 1px 1px #e7e9ff;
+  font-size: 18px;
+}
+
+#content {
+  margin: 10px;
+  padding: 20px 0px 20px 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+/*
+input:focus:invalid {
+  outline: none;
+}
+
+input:invalid{
+	box-shadow: 0px 0px 5px 2px $red-100;
+}
+input:valid {
+	box-shadow: 0px 0px 5px 2px $green-100;
+}
+*/
